@@ -6,5 +6,5 @@ app = fastapi.FastAPI()
 
 
 @app.get("/")
-def test():
+def index():
     return responses.JSONResponse({"Test": "Successful"})
