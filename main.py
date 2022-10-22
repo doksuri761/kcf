@@ -1,6 +1,6 @@
 import fastapi
-responses = fastapi.responses
 
+responses = fastapi.responses
 
 app = fastapi.FastAPI()
 
